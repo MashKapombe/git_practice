@@ -1,0 +1,7 @@
+/* p{
+    font-family: 'Familjen Grotesk', sans-serif;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
