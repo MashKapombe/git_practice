@@ -806,8 +806,30 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\#\#EEEFE0\] {
+  --tw-gradient-from: ##EEEFE0;
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#EEEFE0\] {
+  --tw-gradient-from: #EEEFE0;
+  --tw-gradient-to: rgb(238 239 224 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#eeefe0\] {
+  --tw-gradient-from: #eeefe0;
+  --tw-gradient-to: rgb(238 239 224 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-\[\#e0ebee\] {
   --tw-gradient-to: #e0ebee;
+}
+
+.to-\[\#e4edf0\] {
+  --tw-gradient-to: #e4edf0;
 }
 
 .object-contain {
