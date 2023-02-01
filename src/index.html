@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,29 +61,29 @@ overflow-x-clip">
 
         </div>
     </nav>
+    <!--end navbar-->
 
     <!--mid center-->
-    <div class="flex items-center w-full mt-12 mx-4 p-4 ">
-        <!-- <div class="grid lg:grid-cols-2 p-4 mx-4 mt-12"> -->
+    <div class="flex flex-col lg:flex-row w-full mt-12 mx-4 p-4">
 
-        <div class="w-1/2 justify-start">
-            <p class="font-bold text-[44px] leading-none">Content analysis<br>made easy
+        <div class="flex flex-col w-full mx-6 px-4 order-2 lg:order-first">
+            <p class="font-bold sm:items-stretch px-24 text-[44px] leading-none">Content analysis<br>made easy
             </p>
             <p class="my-4 text-[18px] leading-tight">Parse.ly makes working with data easy for <br>newsrooms and
                 marketers, giving them the
                 <br>insights they need to focus their content <br>strategy and prove ROI.
             </p>
             <button
-                class="bg-[#7cb260] hover:bg-[#649a49] text-black text-center font-sans font-bold border rounded-full py-2 px-4">Get
+                class=" bg-[#7cb260] hover:bg-[#649a49] text-black text-center font-sans font-bold border rounded-full py-2 px-2 w-44">Get
                 started today</button>
         </div>
 
-        <div class="justify-end w-full">
-            <img class="w-full" src="/src/img/homepage.png" alt="homepage-dash-graphic" class="w-5 h-6">
+        <div class="flex flex-col w-full order-1 lg:order-last">
+            <img class="w-full h-auto align-middle" src="/src/img/homepage.png" alt="homepage-dash-graphic">
         </div>
-        <!-- </div> -->
 
     </div>
+    <!--end midcenter-->
 
     <!--lower center-->
     <div class="w-full py-14">
@@ -91,7 +91,7 @@ overflow-x-clip">
             OUR CUSTOMERS GET RESULT
         </h2>
 
-        <div class="flex flex-row w-full justify-between text-center mt-6">
+        <div class="flex flex-col-2 lg:flex-row w-full justify-between text-center mt-6">
             <div class="flex flex-col w-full px-6">
                 <p class="text-[35px] font-bold text-[#488131]">122%</p>
                 <p class="">organic search traffic</p>
@@ -117,8 +117,9 @@ overflow-x-clip">
             </div>
         </div>
     </div>
-    </div>
+    <!--end lower center-->
 
+    <!--another center-->
     <div class="flex py-28 px-4 bg-[#fbfbfb] w-full">
         <div class="justify-center items-center pl-16 w-1/2">
             <h2 class="font-bold text-[32px] leading-none">The analytics everyone can use</h2>
@@ -140,6 +141,7 @@ overflow-x-clip">
             <img src="/src/img/team.png" class="w-auto h-auto" alt="team in blue hats">
         </div>
     </div>
+    <!--end another center-->
 
     <!--3 col-->
     <div class="flex flex-row w-full justify-center bg-[#fbfbfb] py-14">
@@ -156,22 +158,22 @@ overflow-x-clip">
 
             <ul class="flex flex-col justify-center my-4">
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Real time data
                 </li>
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Conversions
                 </li>
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Reporting
@@ -203,22 +205,22 @@ overflow-x-clip">
 
             <ul class="flex flex-col justify-center my-4">
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Customizable models
                 </li>
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Drag & drop WordPress block
                 </li>
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Aggregate data export
@@ -249,22 +251,22 @@ overflow-x-clip">
 
             <ul class="flex flex-col justify-center my-4">
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Raw, real-time data
                 </li>
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Clean format
                 </li>
                 <li class="inline-flex mb-2 text-[18px]">
-                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <svg class="w-6 h-4 my-auto" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                     </svg>
                     Data storage
@@ -281,7 +283,9 @@ overflow-x-clip">
             </ul>
         </div>
     </div>
+    <!--end 3col-->
 
+    <!--another div-->
     <div class="flex flex-col justify-center text-center py-36 bg-[#fbfbfb]">
         <div class="flex justify-center">
             <img class="justify-center w-16 h-7 my-6" src="/src/img/ae-color.svg">
@@ -293,8 +297,9 @@ overflow-x-clip">
         <p>VP Analytics</p>
 
     </div>
+    <!--end another-->
 
-
+    <!--another div-->
     <div class="flex flex-row bg-[#f4f3f2] justify-between w-full px-14 py-32">
         <div class="flex flex-col  justify-center w-full">
             <img class="w-[310px]" src="/src/img/hand-card.png">
@@ -330,7 +335,10 @@ overflow-x-clip">
 
         </div>
     </div>
+    <!--end div-->
 
+
+    <!--another div-->
     <div class="flex flex-col justify-center text-center py-36 bg-[#F4F3F2]">
         <div class="flex justify-center">
             <h2 class="font-bold text-[24px] pb-4">BACKSTAGE</h2>
@@ -344,7 +352,9 @@ overflow-x-clip">
         <p class="font-bold pt-4">David Grossman</p>
         <p>Chief Marketing Officer</p>
     </div>
+    <!--end div-->
 
+    <!--another div-->
     <div class="bg-[#ffffff] py-36">
         <div class="flex flex-col">
             <h2 class="flex justify-center text-[#868382] font-bold text-[15px]">COMPANIES USING PARSE.LY EVERYDAY
@@ -367,8 +377,9 @@ overflow-x-clip">
             </div>
         </div>
     </div>
+    <!--end div-->
 
-
+    <!--another div-->
     <div class="flex flex-col justify-center text-center py-36 bg-[#e9fbdf] ">
         <div class="flex justify-center">
             <h2 class="flex justify-center text-center font-bold text-[32px] pb-4">Ready to win more with your content?
@@ -381,7 +392,9 @@ overflow-x-clip">
             Get started today
         </button>
     </div>
+    <!--end div-->
 
+    <!--another div-->
     <div class="flex flex-row bg-[#ffffff] py-12">
         <div class="flex flex-col p-4 py-4">
             <h5 class="pb-4 font-bold">Platform</h5>
@@ -447,7 +460,9 @@ overflow-x-clip">
         </div>
 
     </div>
+    <!--end div-->
 
+    <!--footer-->
     <div class="flex flex-row justify-between pb-8 bg-[#ffffff]">
         <div class="flex flex-col mx-4 pb-8">
             <p class="">©2022 All Rights Reserved</p>
@@ -460,10 +475,11 @@ overflow-x-clip">
 
         <div class="flex flex-row pb-8 mx-4">
             <span class="px-2 text-[#497F3D] text-[14px]">An</span>
-                <span class="px-1 text-[14px]"> Automatic </span>
-                <span class=" text-[#497F3D] text-[14px] px-2">creation</span>
+            <span class="px-1 text-[14px]"> Automatic </span>
+            <span class=" text-[#497F3D] text-[14px] px-2">creation</span>
         </div>
     </div>
+    <!--end footer-->
 
 </body>
 
